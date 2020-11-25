@@ -1,0 +1,45 @@
+.thumb-right {
+	.desc {
+		font-weight: 500;
+		font-size: 18px;
+		color: #838383;
+		margin-bottom: 40px;
+	}
+} 
+.numb-thumb {
+	font-size: 14px;
+	color: #000000;
+	ul {
+		display: flex;
+	}
+	li {
+		display: flex;
+    	align-items: center;
+    	padding-right: 50px;
+    	&:last-child {
+    		padding-right: 0;
+    	}
+    	span {
+    		display: block;
+		    letter-spacing: 0.03px;
+		    color: #4697FF;
+		    font-size: 36px;
+		    font-weight: bold;
+		    margin-right: 15px;
+    	}
+	}
+}
+.thumbs-top {
+	padding-bottom: 60px;
+}  
+.about-top {
+	display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    .txt-ab {
+    	font-size: 22px;
+	    color: #132B5E;
+	    flex: 0 0 40%;
+	    margin-right: 45px;
+    }
+} 
